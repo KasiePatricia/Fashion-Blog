@@ -14,7 +14,8 @@ function getPosts() {
         .then((response) => response.json())
         .then((data) => {
             console.log(postBox)
-            postBox = data
+            let data1 = data.slice(0, 15)
+            postBox = data1
             renderUI(postBox)
         })
 
