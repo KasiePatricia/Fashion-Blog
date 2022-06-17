@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <script src="https://kit.fontawesome.com/2ead51d9db.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <title>VERA Blog</title>
+  </head>
+  <body>
+    <header>
+        <div id="topbar" class="d-flex align-items-center fixed-top color">
+          <div class="container d-flex justify-content-between">
+            <div class="contact-info d-flex align-items-center">
+              <i class="bi bi-envelope pe-2"></i> <a href="#" class="text-decoration-none text-dark">contact@example.com</a>
+              <i class="bi bi-phone px-2"></i> +234 703 436 7299
+            </div>
+            <div class="d-none d-lg-flex social-links align-items-center">
+              <a href="#" class="twitter text-dark"><i class="bi bi-twitter pe-3"></i></a>
+              <a href="#" class="facebook text-dark"><i class="bi bi-facebook pe-3"></i></a>
+              <a href="#" class="instagram text-dark"><i class="bi bi-instagram pe-3"></i></a>
+              <a href="#" class="linkedin text-dark"><i class="bi bi-linkedin pe-3"></i></a>
+            </div>
+          </div>
+        </div>
+        <nav id="header" class="navbar navbar-expand-lg navbar-light bg-light">
+          <div class="container-fluid">
+            <a class="navbar-brand fw-bolder fs-1" href="#">VERA</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="about.html">About Me</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="shop.html">Shop</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Dropdown
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+                </li>
+              </ul>
+              <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-warning" type="submit">Search</button>
+              </form>
+            </div>
+          </div>
+        </nav>
+    </header>
+    <main>
+      <section class="" style="margin-top: 40px;">
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false" data-bs-touch="false" data-bs-interval="false">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="img/main.jpg" class="d-block w-100" alt="Fashion Show">
+              <div class="carousel-caption d-none d-md-block bg-light text-secondary rounded">
+                <h5>Fashion</h5>
+                <p>Some representative placeholder content for the first slide.</p>
+                <button type="button" name="button" class="btn btn-outline-warning"> Continue Reading</button>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="img/main-20.jpg" class="d-block w-100" alt="Fashion Show">
+              <div class="carousel-caption d-none d-md-block bg-light text-secondary rounded">
+                <h5>Fashion</h5>
+                <p>Some representative placeholder content for the second slide.</p>
+                <button type="button" name="button" class="btn btn-outline-warning"> continue Reading</button>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="img/main-30.jpg" class="d-block w-100" alt="Fashion Show">
+              <div class="carousel-caption d-none d-md-block bg-light text-secondary rounded">
+                <h5>Fashion</h5>
+                <p>Some representative placeholder content for the third slide.</p>
+                <button type="button" name="button" class="btn btn-outline-warning"> continue Reading</button>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="img/main-40.jpg" class="d-block w-100" alt="Fashion Show">
+              <div class="carousel-caption d-none d-md-block bg-light text-secondary rounded">
+                <h5>Fashion</h5>
+                <p>Some representative placeholder content for the third slide.</p>
+                <button type="button" name="button" class="btn btn-outline-warning"> continue Reading</button>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+      <section class="my-5 container-fluid">
+        <div class="row">
+          <div class="col-lg-4 col-md-4 col-sm-12 position-relative mb-2">
+            <a href="#"><img src="img/sunset.jpg" alt="Fashion" class=" w-100">
+            <h5 class="carousel-caption shadow-lg">Art/Trends</h5></a>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-12 position-relative mb-2">
+            <a href="#"><img src="img/tailor.jpg" alt="Fashion" class="w-100">
+            <h5 class="carousel-caption shadow-lg">Beauty/MakeUp</h5></a>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-12 position-relative mb-2">
+            <a href="#"><img src="img/lady-bag.jpg" alt="Fashion" class=" w-100">
+            <h5 class="carousel-caption shadow-lg">Live/Love</h5></a>
+          </div>
+        </div>
+      </section>
+      <section class="container border border-dark border-start-0 border-end-0 mb-4">
+        <div class="row pb-4">
+          <div class="col-lg-3">
+            <div class="border-end border-dark p-3">
+              <p class="post bg-black text-white text-center py-2">Latest Post</p>
+              <div class="d-flex">
+                <a href="#"><img src="img/aside-3.jpg" alt="Fashion" width="100px" class="img-fluid"></a>
+                <div class="ps-2">
+                  <p>June 12, 2022</p>
+                  <a href="#" class="text-decoration-none text-dark">Ankara Gown</a>
+                </div>
+              </div>
+              <hr>
+              <div class="d-flex">
+                <a href="#"><img src="img/aside-6.jpg" alt="Fashion" width="100px" class="img-fluid"></a>
+                <div class="ps-2">
+                  <p>June 12, 2022</p>
+                  <a href="#" class="text-decoration-none text-dark">Ankara Gown</a>
+                </div>
+              </div>
+              <hr>
+              <div class="d-flex">
+                <a href="#"><img src="img/aside-1.jpg" alt="Fashion" width="100px" class="img-fluid"></a>
+                <div class="ps-2">
+                  <p>June 13, 2022</p>
+                  <a href="#"class="text-decoration-none text-dark">Ankara Gown</a>
+                </div>
+              </div>
+              <hr>
+              <div class="d-flex">
+                <a href="#"><img src="img/aside-2.jpg" alt="Fashion" width="100px" class="img-fluid"></a>
+                <div class="ps-2">
+                  <p>June 14, 2022</p>
+                  <a href="#" class="text-decoration-none text-dark">Ankara Gown</a>
+                </div>
+              </div>
+              <hr>
+              <div class="d-flex">
+                <a href="#"><img src="img/aside-4.jpg" alt="Fashion" width="100px" class="img-fluid"></a>
+                <div class="ps-2">
+                  <p>June 15, 2022</p>
+                  <a href="#" class="text-decoration-none text-dark">Ankara Gown</a>
+                </div>
+              </div>
+              <hr>
+            </div>
+            <div class="border border-start-0 border-end border-dark p-3">
+              <p class="post bg-black text-white text-center py-2">Search</p>
+              <div class="input-group mb-3">
+                <input type="text" class="form-control" placeholder="Search" aria-label="Recipient's username" aria-describedby="button-addon2">
+                <button class="btn btn-outline-secondary" type="button" id="button-addon2"><i class="fa-solid fa-magnifying-glass"></i></button>
+              </div>
+            </div>
+            <div class=" border border-start-0 border-dark p-3" style="font-size: 13px;">
+              <p class="post bg-black text-white text-center py-2">Categories</p>
+              <a href="#" class="text-decoration-none text-dark">Fashion</a><hr>
+              <a href="#" class="text-decoration-none text-dark">Looks</a><hr>
+              <a href="#" class="text-decoration-none text-dark">Travel</a><hr>
+              <a href="#" class="text-decoration-none text-dark">Make-Up</a><hr>
+              <a href="#" class="text-decoration-none text-dark">Music</a><hr>
+            </div>
+            <div class="border-end border-bottom border-dark p-3">
+              <p class="post bg-black text-white text-center py-2">Random Posts</p>
+              <div class="">
+                <p>June 12, 2022</p>
+                <a href="#"><img src="img/center-2.jpg" alt="Fashion" class="img-fluid"></a><br>
+                <a href="#" class="text-decoration-none text-dark">Ankara Gown</a>
+              </div>
+              <hr>
+              <div class="">
+                <p>June 13, 2022</p>
+                <a href="#"><img src="img/center-1.jpg" alt="Fashion" class="img-fluid"></a><br>
+                <a href="#" class="text-decoration-none text-dark">Ankara Gown</a>
+              </div>
+              <hr>
+              <div class="">
+                <p>June 14, 2022</p>
+                <a href="#"><img src="img/aside-3.jpg" alt="Fashion" class="img-fluid"></a><br>
+                <a href="#" class="text-decoration-none text-dark">Ankara Gown</a>
+              </div>
+            </div>
+          </div>
+          <div class="top-section mt-5 col-lg-6">
+              <h1>Posts page</h1>
+                  <form action="" id="post-form">
+                      <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Post Title</label>
+                        <input type="text" class="form-control" id="title" placeholder="Enter title">
+                      </div>
+                      <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Post Body</label>
+                        <textarea class="form-control" id="body" rows="3" placeholder="Enter content..."></textarea>
+                      </div>
+                      <div class="d-flex">
+                        <button class="btn btn-primary" type="submit">Create a Post</button>
+                      </div>
+                  </form>
+                  <div class="card-section mt-5" id="post-holder">
+                    <div class="card">
+                        <div class="card-body">
+                            <p id="post-id">1</p>
+                            <h6 id="post-title">post title</h6>
+                            <p id="post-body">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo cupiditate laborum, soluta debitis iure dolore iusto adipisci optio ipsam, sint amet dolorem possimus voluptatum. Voluptate cumque possimus autem alias maiores.</p>
+                            <div>
+                              <button class="btn btn-primary" onclick="updatePost()">Update</button>
+                              <button class="btn btn-secondary">View</button>
+                              <button class="btn btn-danger">Delete</button>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+            </div>
+          <div class="col-lg-3">
+            <div class="border border-end-0 border-top-0 border-dark p-3">
+              <p class="post bg-black text-white text-center py-2">About</p>
+              <img src="img/aside-11.jpg" alt="Picture of the Autor" class="rounded-circle">
+              <p class="pt-2" style="font-size: 13px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco. <a href="#" class="text-decoration-none text-dark fw-bold">Learn more</a></p>
+              <p>Veronica</p>
+            </div>
+            <div class="position-relative p-3 border border-end-0 border-top-0 border-dark">
+              <a href="#"><img src="img/tailor.jpg" alt="A Tailor" class="img-fluid w-100">
+              <h5 class="carousel-caption shadow-lg">Buy this item</h5></a>
+            </div>
+            <div class="border border-end-0 border-top-0 border-dark p-3">
+              <p class="post bg-black text-white text-center py-2">Elsewhere</p>
+              <div class="icons text-center">
+                <a href="#"><i class="fa-brands fa-facebook-f me-2  text-dark"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter me-2  text-dark"></i></a>
+                <a href="#"><i class="fa-brands fa-pinterest-p me-2  text-dark"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram me-2  text-dark"></i></a>
+              </div>
+            </div>
+            <div class="border border-end-0 border-top-0 border-dark p-3">
+              <p class="post bg-black text-white text-center py-2">Newsletter</p>
+              <p>Enter your email address to subscribe to this blog and receive notifications of new posts by email.</p>
+              <input type="email" class="form-control text-center" placeholder="Email" aria-label="Recipient's username" aria-describedby="button-addon2"><br>
+              <button type="submit" class="btn btn-warning w-100">Subscribe</button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="bg-dark pt-2">
+        <div class="d-flex justify-content-between text-light container py-2">
+          <p>Get connected with us on social networks:</p>
+          <div class="icons">
+            <a href="#" class="text-light"><i class="fa-brands fa-facebook-f me-2"></i></a>
+            <a href="#"  class="text-light"><i class="fa-brands fa-twitter me-2"></i></a>
+            <a href="#"  class="text-light"><i class="fa-brands fa-pinterest-p me-2"></i></a>
+            <a href="#"  class="text-light"><i class="fa-brands fa-instagram me-2"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="top-footer bg-black text-light pb-2 pt-4">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3 col-sm-6 mb-3">
+              <h2>VERA</h2>
+              <p class="lh-6 pt-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+            <div class="col-md-3 col-sm-6">
+              <h4>FAQ</h4>
+              <div class="pt-3">
+                <div class="d-flex align-items-center justify-content-center">
+                  <a href="#" class="text-light"><i class="fa-solid fa-gift "></i></a>
+                  <p class="ps-3 m-b">Is there any gift when one buys a product?</p>
+                </div>
+                <hr>
+                <div class="d-flex align-items-center justify-content-center">
+                  <a href="#" class="text-light"><i class="fa-solid fa-bag-shopping "></i></a>
+                  <p class="ps-3 m-b">Is there any gift when one buys a product?</p>
+                </div>
+                <hr>
+                <div class="d-flex align-items-center justify-content-center">
+                  <a href="#" class="text-light"><i class="fa-solid fa-cart-arrow-down"></i></a>
+                  <p class="ps-3 m-b">Is there any gift when one buys a product?</p>
+                </div>
+                <hr>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6 center-sm">
+              <h6 class="ps-3">USEFUL LINK</h6>
+              <ul class="pt-4">
+                <li class="list-unstyled pb-3"><a href="#" class="text-decoration-none text-light">Pricing</a></li>
+                <li class="list-unstyled pb-3"><a href="#" class="text-decoration-none text-light">Location</a></li>
+                <li class="list-unstyled pb-3"><a href="#" class="text-decoration-none text-light">Order</a></li>
+                <li class="list-unstyled pb-3"><a href="#" class="text-decoration-none text-light">Help</a></li>
+              </ul>
+            </div>
+            <div class="col-md-3 col-sm-6 center-icon">
+              <h6>CONTACT US</h6>
+              <div class="d-flex align-items-center">
+                <i class="fa-solid fa-house-chimney"></i>
+                <p class="ps-3 pt-2">Enugu State, Nigeria</p>
+              </div>
+              <div class="d-flex align-items-center">
+                <i class="fa-solid fa-envelope"></i>
+                <p class="ps-3 pt-2">info@examle.com</p>
+              </div>
+              <div class="d-flex align-items-center">
+                <i class="fa-solid fa-phone"></i>
+                <p class="ps-3 pt-2">+234 703 436 7299</p>
+              </div>
+              <div class="d-flex align-items-center">
+                <i class="fa-solid fa-square-phone fs-4"></i>
+                <p class="ps-3 pt-2">+234 703 436 7299</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="down-footer bg-dark text-center text-light py-3">
+        <span style="font-size: 13px;"> &copy; 2022 Kassy Designs, All Right Reserved</span>
+      </div>
+    </footer>
+    <button type="button" class="btn btn-primary btn-floating btn-sm" id="btn-back-to-top">
+      <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="js/blog.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
